@@ -2,7 +2,7 @@ version: 0.2
 
 env:
   variables:
-    IMAGE_REPO_NAME: aseef-dev
+    IMAGE_REPO_NAME: aseef
 phases:
   install:
     runtime-versions:
