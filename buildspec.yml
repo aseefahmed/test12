@@ -8,6 +8,7 @@ phases:
     commands:
       - echo 'logging into ECR'
       - $(aws ecr get-login --no-include-email --region $AWS_DEFAULT_REGION)
+      - env
 
   build:
     commands:
